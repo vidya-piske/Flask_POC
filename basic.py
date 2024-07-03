@@ -1,11 +1,10 @@
 from flask import Flask
 from addition import addition_bp
 from multiplication import multiplication_bp
+#'substraction' is a filename and 'subtraction_bp' is a blueprint
 from substraction import subtraction_bp
-from flask import Blueprint
 
-# 'substraction' is a filename and 'subtraction_bp' is a blueprint
-
+# Create an instance of the Flask class
 app = Flask(__name__)
 
 # Register blueprints
